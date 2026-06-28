@@ -1,0 +1,137 @@
+/* ====================================
+   NOTEBOOKS
+==================================== */
+
+@media (max-width: 1400px){
+
+    .logo-grande{
+        width: 360px;
+    }
+
+    .card{
+        width: 450px;
+        padding: 45px 35px;
+    }
+
+    .card h1{
+        font-size: 30px;
+    }
+
+}
+
+
+/* ====================================
+   TABLETS
+==================================== */
+
+@media (max-width: 992px){
+
+    .container{
+        flex-direction: column;
+    }
+
+    .lado-esquerdo,
+    .lado-direito{
+        width: 100%;
+    }
+
+    .lado-esquerdo{
+        height: 35vh;
+    }
+
+    .lado-direito{
+        height: 65vh;
+    }
+
+    .logo-grande{
+        width: 250px;
+    }
+
+    .card{
+        width: 90%;
+        max-width: 500px;
+    }
+
+}
+
+
+/* ====================================
+   CELULARES
+==================================== */
+
+@media (max-width: 768px){
+
+    body{
+        overflow-y: auto;
+    }
+
+    .lado-esquerdo{
+        height: 30vh;
+    }
+
+    .lado-direito{
+        height: auto;
+        min-height: 70vh;
+        padding: 40px 20px;
+    }
+
+    .card{
+        width: 100%;
+        padding: 35px 25px;
+        border-radius: 22px;
+    }
+
+    .logo-pequena{
+        width: 100px;
+        margin-bottom: 20px;
+    }
+
+    .card h1{
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+
+    .card h3{
+        font-size: 16px;
+    }
+
+    .botao{
+        height: 52px;
+        font-size: 15px;
+    }
+
+}
+
+
+/* ====================================
+   CELULARES PEQUENOS
+==================================== */
+
+@media (max-width: 480px){
+
+    .logo-grande{
+        width: 180px;
+    }
+
+    .logo-pequena{
+        width: 85px;
+    }
+
+    .card{
+        padding: 30px 20px;
+    }
+
+    .card h1{
+        font-size: 22px;
+    }
+
+    .card h3{
+        font-size: 15px;
+    }
+
+    .botao{
+        height: 48px;
+        font-size: 14px;
+    }
+
+}

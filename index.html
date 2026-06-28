@@ -1,36 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Quem é você?</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="base.css">
-        <link rel="stylesheet" href="componentes.css">
-        <link rel="stylesheet" href="responsive.css">
-        <link rel="stylesheet" href="layout.css">
-    </head>
+    <title>Quem é você?</title>
 
-    <body class="">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/componentes.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
 
-        <div class="">
-            <div class="">
-                <img src="logosis.png" alt="Logo do Sistema">
+    <main class="container">
+
+        <!-- LADO ESQUERDO -->
+        <section class="lado-esquerdo">
+
+            <img
+                src="assets/logo_sis.png"
+                alt="Logo"
+                class="logo-grande">
+
+        </section>
+
+        <!-- LADO DIREITO -->
+        <section class="lado-direito">
+
+            <div class="card">
+
+                <img
+                    src="assets/logo_sis.png"
+                    alt="Logo"
+                    class="logo-pequena">
+
+                <h1>QUEM É VOCÊ?</h1>
+
+                <h3>SELECIONE:</h3>
+
+                <div class="botoes">
+
+                    <a href="inicio.html" class="botao">
+                        ALUNO/ESCOLINHA
+                    </a>
+
+                    <a href="login.html" class="botao">
+                        ONG
+                    </a>
+
+                    <a href="login.html" class="botao">
+                        EMPRESA
+                    </a>
+
+                </div>
+
             </div>
-        </div>
 
-        <div class="">
-            <h1>Quem é você?</h1>
-            <div>
-                <button type="button" class="login__button" onclick="window.location.href='inicio.html'">ALUNO/ESCOLINHA</button>                
-            </div>
-            <div>
-                <button type="button" class="login__button" onclick="window.location.href='coleta.html'">ONG</button>                     
-            </div>
-            <div>
-                <button type="button" class="login__button" onclick="window.location.href='empresa.html'">EMPRESA</button>                     
-            </div>
-        </div>
+        </section>
 
-    </body>
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
 </html>
