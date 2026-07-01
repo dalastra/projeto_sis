@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Projeto SIS</title>
+    <title>Login</title>
 
-    <!-- CSS -->
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/componentes.css">
@@ -16,45 +15,45 @@
 
     <main class="container">
 
-        <!-- LADO ESQUERDO -->
+        <!-- Lado Esquerdo -->
         <section class="lado-esquerdo">
 
-            <img
-                src="assets/logo_sis.png"
-                alt="Logo"
-                class="logo-grande">
+            <img src="assets/logo.png"
+                 class="logo-grande"
+                 alt="Logo">
 
         </section>
 
-        <!-- LADO DIREITO -->
+        <!-- Lado Direito -->
         <section class="lado-direito">
 
-            <div class="card">
+            <div class="card login-card">
 
-                <img
-                    src="assets/logo_sis.png"
-                    alt="Logo"
-                    class="logo-pequena">
+                <img src="assets/logo.png"
+                     class="logo-pequena"
+                     alt="Logo">
 
-                <h1>QUEM É VOCÊ?</h1>
+                <form class="form-login">
 
-                <h3>SELECIONE:</h3>
+                    <label>LOGIN</label>
 
-                <div class="botoes">
+                    <input
+                        type="text"
+                        placeholder="Digite seu login..."
+                        required>
 
-                    <a href="inicio.html" class="botao">
-                        ALUNO/ESCOLINHA
-                    </a>
+                    <label>SENHA</label>
 
-                    <a href="login.html" class="botao">
-                        ONG
-                    </a>
+                    <input
+                        type="password"
+                        placeholder="Digite sua senha..."
+                        required>
 
-                    <a href="login.html" class="botao">
-                        EMPRESA
-                    </a>
+                    <button type="submit">
+                        ENTRAR
+                    </button>
 
-                </div>
+                </form>
 
             </div>
 
