@@ -33,7 +33,7 @@
     color:white;
     text-decoration:none;
 
-    font-size:22px;
+    font: size 24px;
     font-weight:600;
 
     transition:.3s;
@@ -42,13 +42,13 @@
 
 .menu a:hover{
 
-    color:#9fd3ff;
+    color:#002261;
 
 }
 
 .ativo{
 
-    color:#061d52 !important;
+    color:#002261 !important;
 
 }
 
@@ -70,11 +70,10 @@ body{
 
     background:linear-gradient(
         180deg,
-        #1760F5 0%,
-        #144CB9 65%,
-        #082357 100%
+        #0064FF 0%,
+        #00173A 100%
     );
-
+    font-family: Arial, Helvetica, sans-serif;
     overflow-x:hidden;
 
 }
@@ -171,7 +170,11 @@ main{
 
     border-radius:30px;
 
-    background:#173B91;
+    background:linear-gradient(
+        90deg,
+        #0A2A66 0%,
+        #0040B7 100%
+    );
 
     display:grid;
 
@@ -186,7 +189,7 @@ main{
     width:160px;
     height:230px;
 
-    background:#3774F8;
+    background:#2571FF;
 
     border-radius:22px;
 
@@ -200,6 +203,6 @@ main{
 
     transform:translateY(-8px);
 
-    background:#4B86FF;
+    background:#0036a2;
 
 }
