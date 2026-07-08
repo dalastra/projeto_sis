@@ -1,0 +1,247 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+body{
+
+    min-height:100vh;
+
+    background:linear-gradient(
+        180deg,
+        #0064FF 0%,
+        #00173A 100%
+    );
+
+}
+
+/* HEADER */
+
+header{
+
+    height:110px;
+
+    background:#003FB4;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    position:relative;
+
+}
+
+header h1{
+
+    color:white;
+
+    font-size:64px;
+
+    font-weight:bold;
+
+}
+
+.logo{
+
+    position:absolute;
+
+    right:60px;
+
+    width:55px;
+
+}
+
+.voltar{
+
+    position:absolute;
+
+    left:40px;
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:48px;
+
+}
+
+/* CONTEÚDO */
+
+main{
+
+    width:75%;
+
+    margin:60px auto;
+
+}
+
+main h2{
+
+    color:white;
+
+    font-size:72px;
+
+    margin-bottom:70px;
+
+}
+
+.conteudo{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+}
+
+/* GRÁFICO */
+
+.grafico{
+
+    width:580px;
+
+    height:520px;
+
+    background:#2571FF;
+
+    border-radius:30px;
+
+    position:relative;
+
+}
+
+.eixoY{
+
+    position:absolute;
+
+    left:45px;
+
+    bottom:25px;
+
+    width:4px;
+
+    height:420px;
+
+    background:white;
+
+}
+
+
+.eixoX{
+
+    position:absolute;
+
+    left:45px;
+
+    bottom:25px;
+
+    width:500px;
+
+    height:4px;
+
+    background:white;
+
+}
+
+.barra{
+
+    position:absolute;
+
+    bottom:29px;
+
+    width:90px;
+
+}
+
+.barra1{
+
+    left:160px;
+
+    height:360px;
+
+    background:#B5D2FF;
+
+}
+
+.barra2{
+
+    left:340px;
+
+    height:190px;
+
+    background:#003556;
+
+}
+
+/* CARDS */
+
+.cards{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:60px;
+
+}
+
+.card{
+
+    width:420px;
+
+    height:230px;
+
+    background:#2571FF;
+
+    border-radius:30px;
+
+    padding:30px 50px;
+
+}
+
+.linha{
+
+    width:100%;
+
+    height:6px;
+
+    border-radius:5px;
+
+    background:#B5D2FF;
+
+    margin-bottom:25px;
+
+}
+
+.azul{
+
+    background:#003556;
+
+}
+
+.card h3{
+
+    color:white;
+
+    font-size:24px;
+
+    line-height:1.3;
+
+    margin-bottom:35px;
+
+}
+
+.card span{
+
+    color:white;
+
+    font-size:56px;
+
+    font-weight:bold;
+
+}
